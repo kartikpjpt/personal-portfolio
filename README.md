@@ -1,3 +1,3 @@
 # Personal Portfolio App Using React.js
 
-hosted here: https://kartikpjpt.space
+hosted here: https://www.kartikpjpt.space
