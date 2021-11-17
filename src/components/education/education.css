@@ -1,0 +1,47 @@
+.e {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.e-title {
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+        0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+    /* background-color: #9dbde4 !important; */
+    
+}
+.vertical-timeline-element-content > h3,h4,h5 {
+    font-weight: 400;
+}
+.vertical-timeline-element-content > p {
+    font-weight: 300;
+}
+
+.date-1 {
+    color: rgba(245, 245, 245, 0.808) !important;
+    font-weight: 300;
+}
+.date-2 {
+    color: rgba(7, 6, 6, 0.808) !important;
+    font-weight: 300;
+
+}
+
+#description {
+    margin: 1.5em 0 2em 0;
+}
+
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+        display: block !important;
+        float: none !important;
+        color: rgb(44, 44, 44);
+    }
+}

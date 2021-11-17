@@ -1,0 +1,55 @@
+.s {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.s-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.s-desc {
+    font-weight: 500;
+
+} 
+.s-title{
+    font-size:44px;
+    font-weight: 600;
+}
+
+.fab{
+    font-size:188px;
+    margin: 30px 50px;
+}
+.fas{
+    font-size:188px;
+    margin: 30px 50px;
+}
+
+.fa-html5{
+    color:#DD4B25;
+}
+.fa-css3-alt {
+    color:#44AADC;
+}
+.fa-js{
+    color:#EFD81D;
+}
+.fa-react{
+    color:#5ED2F7;
+}
+.fa-node {
+    color:#659B60;
+}
+.fa-database {
+    color:#62AE3F;
+}
+.fa-ubuntu{
+    color:#E95420;
+}
+.fa-cuttlefish{
+    color:#6295CB;
+}
