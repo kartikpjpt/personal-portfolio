@@ -3,7 +3,7 @@ const timelineData = [
         id:1,
         title:"Electronics and Computer Engineering",
         location:"MBM Engineering College, Jodhpur (7.77 SGPA)",
-        description:"lorem ipus et accusamus",
+        
         date:"Aug 2018 - Present",
         icon:"school"
     },
