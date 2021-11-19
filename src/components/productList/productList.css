@@ -21,7 +21,14 @@
     flex-wrap: wrap;
     justify-content:space-between;
 }
-
+@media screen and (max-width:768px) {
+    .pl-texts{
+        width: 100%;
+    }
+    .pl-title{
+        font-size:40px;
+    }
+}
 @media screen and (max-width: 480px) {
     .pl{
         margin-top:80px;
@@ -30,6 +37,7 @@
     }
     .pl-texts{
         width: 100%;
+        
     }
     .pl-desc{
         display: none;

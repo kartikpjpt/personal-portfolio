@@ -1,9 +1,11 @@
+html {
+    background-color: #59B256;
+}
 .banner {
     position: fixed;
     top:1%;
     left:1.4%;
     z-index: 999;
     font-weight: 600;
-    
-
 }
+

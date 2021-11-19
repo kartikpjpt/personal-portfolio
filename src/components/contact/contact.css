@@ -1,5 +1,5 @@
 .c{
-    height:100vh;
+    min-height:100vh;
     position:relative;
 }
 .c-bg{
@@ -73,6 +73,39 @@ button{
     color:#59b256;
     font-weight: 500;
     position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .c-wrapper{
+        flex-direction: column;
+        padding:0px 50px;
+    }
+    .c-title{
+        font-size:40px;
+    }
+    .c-info-item{
+        margin:20px 0px;
+        width:100%;
+    }
+    form{
+        margin-top:0;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 35%;
+        height: 40px;
+        margin:10px;
+        margin-left:0;
+    }
+    textarea{
+        margin:10px;
+        margin-left:0;
+    }
+    button{
+        margin-top:10px;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
