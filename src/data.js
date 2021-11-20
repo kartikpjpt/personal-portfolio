@@ -1,6 +1,6 @@
-import quotes from './img/products/quotes.png';
-import scroll from './img/products/scroll.png';
-import portfolio from './img/products/portfolio.png';
+import quotes from './img/products/quotes.jpg';
+import scroll from './img/products/scroll.jpg';
+import portfolio from './img/products/portfolio.jpg';
 export const products = [
     {
       id: 1,
