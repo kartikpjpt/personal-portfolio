@@ -14,13 +14,13 @@ const Education = () => {
         background:"#59B256"
     };
     let schoolIconStyles = {
-        background:"#44AADC"
+        background:"#407BFF"
     }
     let workContent = {
         background: '#59B256', color: 'rgba(245, 245, 245, 0.9)',borderTop:"4px solid #9dbde4 "
     };
     let schoolContent = {
-        background: '#44AADC', color: 'rgba(245, 245, 245, 0.9)',borderTop:"4px solid #9dbde4 "
+        background: '#407BFF', color: 'rgba(245, 245, 245, 0.9)',borderTop:"4px solid #9dbde4 "
     };
     return (
         <div className="e">
