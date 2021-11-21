@@ -1,6 +1,5 @@
 import React from "react";
 import "./intro.css";
-import Me from "../../img/me-1.svg";
 import intro from "../../img/intro-1.svg";
 
 const Intro = () => {
